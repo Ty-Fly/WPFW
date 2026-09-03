@@ -19,7 +19,8 @@ float: left;
 .logo {
 color: white;
 font-weight: bold;
-padding: 14px 20px;
+padding: 8px 20px;
+font-size: 25px;
 cursor: default;
 }
 
