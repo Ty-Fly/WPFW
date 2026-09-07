@@ -5,22 +5,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
-  <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <meta name="description" content="">
 </head>
 <body>
-    <ul>
-        <li class="logo">WPFW Website</li>
-        <li><a id="home-link" href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-    </ul>
+  <div class="topnav" id="myTopnav">
+  <p class="logo">Portfolio website</p>
+  <a class="active" href="index.html">Home</a>
+  <a href="about_me.html">About me</a>
+  <a href="blog.html">Blog</a>
+  <a href="projecten.html">Projecten</a>
+  <a href="javascript:void(0);" class="icon" onclick="responsiveToggle()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <div class="content">
     <h2>Home</h2>
     <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
     </p>
 </div>
+
+<script src="../js/script.js"></script>
 </body>
 
 </html>
